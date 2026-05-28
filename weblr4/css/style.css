@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    width: 100%;
+    margin: 20px;
+}
+
+.title::before, .title::after {
+    content: "";
+    flex: 1;
+    height: 5px;
+    background-color: black;
+}
+
+.title span {
+    padding: 0 15px;
+}

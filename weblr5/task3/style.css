@@ -1,0 +1,77 @@
+.pricing-wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.pricing-item {
+    float: left;
+    width: 30%;
+    margin: 1%;
+    box-sizing: border-box;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.tiny thead {
+    background-color: #1abc9c;
+}
+
+.price { font-size: 24px; padding-top: 20px;  color: white;}
+.title { font-size: 18px; padding-bottom: 20px; font-weight: normal; color: white; }
+
+td {
+    padding: 10px;
+    color: #666;
+    font-size: 14px;
+}
+
+.action {
+    border-top: 1px dotted #ccc; 
+    padding-top: 20px;
+}
+
+.btn {
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.pricing-item.tiny {
+border-bottom: 5px solid #16a085;
+}
+
+.small thead {
+    background-color: #f39c12;
+}
+.small .btn {
+    background-color: #f39c12;
+}
+.small {
+    border-bottom: 5px solid #e67e22;
+}
+
+.medium thead {
+    background-color: #e74c3c;
+}
+.medium .btn {
+    background-color: #e74c3c;
+}
+.medium {
+    border-bottom: 5px solid #c0392b;
+}
+
+
+
+.pricing-wrapper::after {
+    content: "";
+    display: table;
+    clear: both;
+}

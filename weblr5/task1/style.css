@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+    table {
+    width: 100%;
+}
+
+thead {
+    background-color: rgb(119, 180, 255);
+    color: #fff;
+}
+
+th, td {
+    padding: 15px;
+}
+
+tbody th {
+    background-color: rgb(119, 180, 255);
+    color: #fff;
+}
+
+tbody td {
+    background-color:  rgb(196, 217, 255);
+    text-align: center;
+}
+
+.cell {
+    float: left;
+    width: 20%;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    background-color: rgb(196, 217, 255);
+    text-align: center;
+}
+
+.row:first-of-type .cell, .cell:first-child {
+    background-color: rgb(119, 180, 255);
+    color: white;
+    font-weight: bold;
+}
