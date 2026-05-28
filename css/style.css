@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Google Sans", sans-serif;
+}
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: #3f6592;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 15px;
+}
+.headernav li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 15px;
+}
+.heada {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+main {
+    width: 100%;
+    display: flex;
+}
+.aside {
+    width: 23%;
+    background-color: #3f6592;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.mainsect {
+    width: 77%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.asideul {
+    width: 80%;
+}
+.asideul, .osobinfo, .intinfo, .langinfo {
+    list-style-type: none;
+
+}
+.osobinfo, .intinfo, .langinfo {
+    padding-top: 15px;
+    padding-bottom: 15px;
+} 
+.osobinfo li, .intinfo li, .langinfo li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.foto {
+    align-self: center;
+    border-radius: 50%;
+    margin: 20px;
+}
+.asidepidul {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+.ulmainsect, .expul {
+    list-style-type: none;
+}
+.maintitle, .mainsectlititle {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgb(199, 199, 199);
+}
+.exptitlewrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 10px 0px;
+}
+.exptitle {
+    font-size: 18px;
+}
+i {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.expul p {
+    font-size: 14px;
+}
+
+.lrlistit {
+    list-style-type: none;
+    padding: 5px;
+}
+.lista {
+    text-decoration: none;
+    color: #3f6592;
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #2f435d;
+}
+.lista:hover {
+    background-color: #2f435d;
+    color: white;
+    border: 2px solid #2f435d;
+}
+.lrul {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+.osobinfo a {
+    text-decoration: none;
+    color: white;
+}
