@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #312622;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 50px 20px;
+}
+
+.menu-wrapper {
+    width: 850px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.menu-card {
+    background-color: #fff;
+    width: 100%;
+    min-height: 450px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px;
+}
+
+.promo-section {
+    float: left;
+    width: 35%;
+    position: relative;
+    height: 450px;
+    background-color: #f5f5f5;
+    overflow: hidden;
+}
+
+.promo-img {
+    transform: scale(1.5);
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+    display: block;
+}
+
+.black-box {
+    position: absolute;
+    top: 280px;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 25px 10px;
+}
+
+.black-box h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    line-height: 1.1;
+    margin-bottom: 10px;
+}
+
+.price-badge {
+    color: #ffcc00;
+    font-weight: bold;
+}
+
+                /* СПИСОК СТРАВ */
+.items-section {
+    float: right;
+    width: 65%;
+    padding: 40px 50px;
+    text-align: center;
+}
+
+.subtitle {
+    font-family: "Times New Roman", Georgia, serif;
+    font-size: 18px;
+    font-style: italic;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.menu-columns-wrapper {
+    overflow: hidden;
+}
+
+.menu-column {
+    float: left;
+    width: 45%;
+}
+
+.menu-column:last-child {
+    float: right;
+}
+
+.menu-item {
+    margin-bottom: 20px;
+}
+
+.item-name {
+    font-family: "Times New Roman", Georgia, serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #111;
+    margin-bottom: 5px;
+}
+
+.item-price {
+    font-size: 13px;
+    color: #888;
+}
+
+.divider {
+    height: 1px;
+    background-color: #e0e0e0;
+    margin: 15px 0;
+    position: relative;
+}
+
+.divider::after {
+    content: "";
+    position: absolute;
+    top: -3px;
+    left: 50%;
+    margin-left: -3px;
+    width: 7px;
+    height: 7px;
+    background-color: #d5d5d5;
+    transform: rotate(45deg);
+}
+
+.bottom-action {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.btn-all {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 15px 35px;
+    transition: background 0.2s;
+}
+
+.btn-all:hover {
+    background-color: #444;
+}

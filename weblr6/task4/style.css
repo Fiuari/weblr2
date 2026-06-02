@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding: 30px;
+}
+
+.container {
+    overflow: hidden;
+}
+
+
+.calculator {
+    width: 250px;
+    border: 3px solid #6eaaa3;
+    border-radius: 7px;
+    background-color: #fff;
+    margin-right: 50px;
+    float: left;
+}
+
+.top-bar {
+    background-color: #6eaaa3;
+    color: white;
+    text-align: right;
+    padding: 5px 15px;
+}
+
+input[type="text"] {
+    width: 216px;
+    height: 35px;
+    border: 2px solid #6eaaa3;
+    color: #6eaaa3;
+    text-align: right;
+    padding: 5px 10px;
+}
+
+.solar-panel {
+    background-color: #6eaaa3;
+    width: 50px;
+    height: 20px;
+}
+
+button {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #6eaaa3;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #6eaaa3;
+    cursor: pointer; 
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #6eaaa3;
+    color: #fff;
+    border-color: #558781;
+}
+
+button:active {
+    background-color: #3b6b65;
+    border-color: #2a4d48;
+    transform: scale(0.95); 
+}
+
+
+
+.calc-float {
+    padding-bottom: 20px;
+}
+
+.calc-float .solar-panel {
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.calc-float .input-area {
+    padding: 15px 14px 5px 14px ;
+}
+
+.calc-float .keypad {
+    clear: both;
+    padding: 15px 14px 0 14px ;
+    overflow: hidden;
+}
+
+.calc-float button {
+    float: left;
+    margin-right: 14px;
+    margin-bottom: 14px;
+}
+
+.calc-float button:nth-child(4n) {
+    margin-right: 0;
+}
+
+.calc-position {
+    position: relative;
+    height: 370px;
+}
+
+.calc-position .top-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.calc-position input {
+    position: absolute;
+    top: 45px;
+    left: 14px;
+}
+
+.calc-position .solar-panel {
+    position: absolute;
+    top: 90px;
+    right: 14px;
+}
+
+.calc-position button {
+    position: absolute;
+}
+
+.btn-7    { top: 130px; left: 14px; }
+.btn-8    { top: 130px; left: 70px; }
+.btn-9    { top: 130px; left: 126px; }
+.btn-plus { top: 130px; left: 182px; }
+
+.btn-4     { top: 185px; left: 14px; }
+.btn-5     { top: 185px; left: 70px; }
+.btn-6     { top: 185px; left: 126px; }
+.btn-minus { top: 185px; left: 182px; }
+
+.btn-1   { top: 240px; left: 14px; }
+.btn-2   { top: 240px; left: 70px; }
+.btn-3   { top: 240px; left: 126px; }
+.btn-div { top: 240px; left: 182px; }
+
+.btn-dot { top: 295px; left: 14px; }
+.btn-0   { top: 295px; left: 70px; }
+.btn-eq  { top: 295px; left: 126px; }
+.btn-mul { top: 295px; left: 182px; }
