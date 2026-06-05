@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.catalog {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.catalog-title {
+    font-size: 24px;
+    margin: 60px;
+
+}
+.catalog-wrapper {
+    position: relative;
+}
+.catalog-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+}
+.catalog-item {
+    display: grid;
+    position: relative;
+    grid-template-rows: 20% 1% 40% 12% 9% 18%;
+    border: 1px solid #ccc;
+    padding-right: 20px;
+    padding-left: 20px;
+    justify-items: center;
+    align-items: center;
+    height: 520px;
+}
+.new::before {
+    content: "НОВИНКА";
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #5c9c35;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -35px;
+    right: 10px;
+}
+.hit::before {
+    content: "ХІТ ПРОДАЖІВ";
+    text-align: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #377acb;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -35px;
+    right: 10px;
+}
+hr {
+    height: min-content;
+    width: 90%;
+    margin: 10px 0;
+    color: #ccc;
+}
+.item-type {
+    font-size: 18px;
+    color: #555;
+}
+
+.item-name, a {
+    font-size: 16px;
+    text-align: center;
+    color: #333;
+    text-decoration: none;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+}
+
+.btn-add-cart {
+    height: 65%;
+    background-color: #FFEB3B;
+    border: none;
+    padding: 12px 24px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+    cursor: pointer;
+    width: 90%;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.btn-add-cart:hover {
+    background-color: #FDD835;
+}
+
+.btn-unavailable {
+    height: 65%;
+    background-color: #E91E63;
+    border: none;
+    padding: 12px 24px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    cursor: not-allowed;
+    width: 90%;
+    text-transform: uppercase;
+    opacity: 0.8;
+}
+
+.nav-arrow {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    border-radius: 50%;
+    color: #333;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10;
+}
+.arrow-left {
+    left: -25px;
+    top: 80px;
+}
+.arrow-right {
+    right: -25px;
+    top: 80px;
+}
